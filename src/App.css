@@ -1,0 +1,28 @@
+.content {
+    text-align: center;
+}
+
+h4{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: black
+}
+
+h5 {
+    font-size: 40px;
+    color: rgb(255, 0, 119);
+    font-style: oblique;
+    -webkit-text-stroke-width: 2px;
+    
+}
+
+.progress {
+    width: 60%;
+    margin-top: 18px;
+    height: 23px;
+}
+
+.progress-bar {
+    width: 50%;
+}
