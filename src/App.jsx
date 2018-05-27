@@ -8,6 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import News from './components/News';
 import Navbar from './components/CustomNavbar';
+import LeModal from './components/LeModal'
 
 const style = {
   height: 30,
@@ -48,7 +49,7 @@ class App extends Component {
           <Navbar />
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/news" component={News} />
+          <Route path="/news" component={LeModal} />
           <InfiniteScroll
   dataLength={this.state.items.length} //This is important field to render the next data
   next={this.fetchData}
@@ -58,52 +59,13 @@ class App extends Component {
       <b>Yay! You have seen it all</b>
     </p>
   }>
-    <div>
-      <Row>
-      <h5 className="text-center">Skills and Abilities</h5>
-        <Col xs={4} sm={6} className="content">
-         
-          <h4>HTML(5)</h4>
-          <h4>CSS(3)</h4>        
-          <h4>Bootstrap Framework</h4>
-          <h4>Git</h4>
-          <h4>Command Line</h4>
-          <h4>Javascript</h4>
-          <h4>React</h4>
-          <h4>Redux</h4>
-          <h4>Agile Software Development</h4>
-          <h4>Object Oriented Programming</h4>
-          <h4>SEO</h4>
-          <h4>SQL</h4>
-          <h4>Express Server</h4>
-          <h4>SASS/SCSS</h4>
-            
-        </Col>
-
-        <Col xs={4} sm={6} className="bars">
-        <div>
-          <ProgressBar bsStyle="success" now={90}/>
-          <ProgressBar bsStyle="success" now={90}/>
-          <ProgressBar bsStyle="info" now={70}/>
-          <ProgressBar bsStyle="success" now={80}/>
-          <ProgressBar bsStyle="success" now={70}/>
-          <ProgressBar bsStyle="warning" now={60}/>
-          <ProgressBar bsStyle="success" now={70}/>
-          <ProgressBar bsStyle="secondary" now={60}/>
-          <ProgressBar bsStyle="success" now={80}/>
-          <ProgressBar bsStyle="warning" now={70}/>
-          <ProgressBar bsStyle="danger" now={40}/>
-          <ProgressBar bsStyle="info" now={70}/>
-          <ProgressBar bsStyle="success" now={80}/>
-          <ProgressBar bsStyle="danger" now={50}/>
-          
-        </div>
-
-        </Col>
-
-      </Row>
+  <div>
+  <Route exact path="/" component={LeModal} />
     </div>
+    
+    
 </InfiniteScroll>
+
         </div>
       </Router>
     );

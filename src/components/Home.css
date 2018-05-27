@@ -13,6 +13,21 @@
   float: right;
 }
 
+a {
+  
+  position: absolute;
+  margin-left: 300px;
+}
+.glyphicon {
+  font-size: 50px;
+}
+
+.glyphicon .glyphicon-info-sign {
+  margin-right: 200px;
+  margin-left: 40px;
+  font-size: 200px;
+}
+
 h1 {
   margin-left: 16px;
 }
@@ -38,6 +53,7 @@ p {
   -webkit-margin-after: 2em;
   -webkit-margin-start: 10px;
   -webkit-margin-end: 0px;
+  color: rgba(221, 23, 99, 0.849);
 }
 
 .btn-primary {
@@ -49,4 +65,116 @@ p {
 
 h3 {
   margin-bottom: 1em;
+}
+
+h6 {
+  text-align: center;
+  font-size: 60px;
+  font-family: sans-serif;
+  margin-top: -30px;
+  margin-bottom: 60px;
+  margin-right: 80px;
+  text-decoration-line: underline;
+  color: tomato;
+}
+
+.image-project {
+  width: 352px;
+  height: 580px;
+}
+
+.bottom-content {
+  background-color: bisque;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 29px;
+  right: 0;
+  height: 580px;
+  width: 352px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(20, 243, 39, 0.76);
+} 
+
+.container-two .overlay-two {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  height: 580px;
+  width: 352px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(39, 234, 248);
+  overflow: hidden
+} 
+
+.container-three .overlay-three {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 580px;
+  width: 352px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: yellow;
+  overflow: hidden
+} 
+
+.container:hover .overlay {
+  opacity: .8;
+  
+}
+
+.container-two:hover .overlay-two {
+  opacity: .8;
+}
+
+.container-three:hover .overlay-three {
+  opacity: .8;
+   
+}
+
+h7 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 300;
+  font-family: fantasy;
+  
+}
+
+.line {
+  border-top: 3px solid white;
+  flex-grow: 5;
+  margin: 0 1px;
+  margin-top: 90%;
+  bottom: 50%;
+}
+
+h8 {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 300;
+  font-family: fantasy
 }
