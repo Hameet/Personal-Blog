@@ -14,7 +14,6 @@
 }
 
 a {
-  
   position: absolute;
   margin-left: 300px;
 }
@@ -53,11 +52,10 @@ p {
   -webkit-margin-after: 2em;
   -webkit-margin-start: 10px;
   -webkit-margin-end: 0px;
-  color: rgba(221, 23, 99, 0.849);
+  color: rgb(13, 141, 226)
 }
 
 .btn-primary {
-  
   border: none;
   border-radius: 0;
   background-color: #2892D7;
@@ -73,9 +71,9 @@ h6 {
   font-family: sans-serif;
   margin-top: -30px;
   margin-bottom: 60px;
-  margin-right: 80px;
-  text-decoration-line: underline;
-  color: tomato;
+  margin-right: 10px;
+  text-decoration-line: unset;
+  color: lightseagreen
 }
 
 .image-project {
@@ -84,7 +82,7 @@ h6 {
 }
 
 .bottom-content {
-  background-color: bisque;
+  
   padding-bottom: 50px;
   padding-top: 80px;
 }
@@ -177,4 +175,23 @@ h8 {
   text-align: center;
   font-weight: 300;
   font-family: fantasy
+}
+
+h5 {
+  font-size: 40px;
+  color: lightseagreen;
+  font-style: oblique;
+  -webkit-text-stroke-width: 2px;
+}
+
+h4{
+  font-size: 30px;
+  font-family: monospace;
+  font-style: italic;
+  color: yellowgreen
+}
+
+.skill-container {
+  padding-top: 40px;
+  background-color: rgba(255, 160, 122, 0.164)
 }

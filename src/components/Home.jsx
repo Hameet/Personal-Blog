@@ -7,6 +7,7 @@ export default class Home extends Component {
   render() {
     return (
         <div>
+          <div className="bio-container">
         <Image src="assets/koyal.jpg" className="image"/>
         <Row className="text pulled left">
           <Col xs={1} sm={5} className="person-wrapper">
@@ -21,9 +22,12 @@ export default class Home extends Component {
           </Col>
           
         </Row>
+        </div>
+
+        <div className="skill-container">
 
         <Row>
-      <h5 className="text-center">Skills and Abilities</h5>
+          <h5 className="text-center">Skills and Abilities</h5>
         <Col xs={4} sm={6} className="content">
          
           <h4>HTML(5)</h4>
@@ -45,26 +49,27 @@ export default class Home extends Component {
 
         <Col xs={4} sm={6} className="bars">
         <div>
-          <ProgressBar active bsStyle="success" now={90}/>
-          <ProgressBar active bsStyle="success" now={90}/>
-          <ProgressBar active bsStyle="info" now={70}/>
-          <ProgressBar active bsStyle="success" now={80}/>
-          <ProgressBar active bsStyle="success" now={70}/>
-          <ProgressBar active bsStyle="warning" now={60}/>
-          <ProgressBar active bsStyle="success" now={70}/>
-          <ProgressBar active bsStyle="info" now={60}/>
-          <ProgressBar active bsStyle="success" now={80}/>
-          <ProgressBar active bsStyle="warning" now={70}/>
-          <ProgressBar active bsStyle="danger" now={40}/>
-          <ProgressBar active bsStyle="info" now={70}/>
-          <ProgressBar active bsStyle="success" now={80}/>
-          <ProgressBar active bsStyle="danger" now={60}/>
+          <ProgressBar  bsStyle="success" now={90}/>
+          <ProgressBar  bsStyle="success" now={90}/>
+          <ProgressBar  bsStyle="info" now={70}/>
+          <ProgressBar  bsStyle="success" now={80}/>
+          <ProgressBar  bsStyle="success" now={70}/>
+          <ProgressBar  bsStyle="warning" now={60}/>
+          <ProgressBar  bsStyle="success" now={70}/>
+          <ProgressBar  bsStyle="info" now={60}/>
+          <ProgressBar  bsStyle="success" now={80}/>
+          <ProgressBar  bsStyle="warning" now={70}/>
+          <ProgressBar  bsStyle="danger" now={40}/>
+          <ProgressBar  bsStyle="info" now={70}/>
+          <ProgressBar  bsStyle="success" now={80}/>
+          <ProgressBar  bsStyle="danger" now={60}/>
           
         </div>
 
         </Col>
 
       </Row>
+      </div>
 
       <div className="bottom-content">
       <h6>Projects</h6>
@@ -74,7 +79,7 @@ export default class Home extends Component {
         
         <Image src="assets/blue.png" className="image-project"/>
           <div className="overlay">
-          <a href="#"><span className="glyphicon glyphicon-new-window"></span></a>
+          <a href="http://embracing-blue.herokuapp.com/#/"><span className="glyphicon glyphicon-new-window"></span></a>
           <strong><h7>Final EDA Project, a webapp created for addresing mental health issues</h7></strong>
           <div className="line"></div>
           <strong><h8>Tags: SQL, Bulma, Redux, React & Auth</h8></strong>
@@ -86,7 +91,7 @@ export default class Home extends Component {
         <div className="container-two">
         <Image src="assets/lost.png" className="image-project"/>
         <div className="overlay-two">
-        <a href="#"><span className="glyphicon glyphicon-new-window"></span></a>
+        <a href="http://lostfoundpets.herokuapp.com/#/"><span className="glyphicon glyphicon-new-window"></span></a>
           <strong><h7>Another intense EDA Project created in a 2 day hackathon</h7></strong>
           <div className="line"></div>
           <strong><h8>Tags: SQL, Bulma, Redux, React & Auth</h8></strong>
@@ -97,9 +102,10 @@ export default class Home extends Component {
         <div className="container-three">
         <Image src="assets/sunny.png" className="image-project"/>
         <div className="overlay-three">
-        
-          <strong><h7>Live weather API and responsive animation(Under construction)</h7></strong>
-          <a href="#"><span className="glyphicon glyphicon-new-window"></span></a>
+          <strong><h7>Live weather API and responsive animation</h7></strong>
+          <a href="https://live-weather-report.herokuapp.com/"><span className="glyphicon glyphicon-new-window"></span></a>
+          <div className="line"></div>
+          <strong><h8>Under Construction</h8></strong>
         </div>
         </div>
         </Col>
