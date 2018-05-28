@@ -49,7 +49,7 @@ class App extends Component {
           <Navbar />
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/news" component={LeModal} />
+          <Route path="/news" component={News} />
           <InfiniteScroll
   dataLength={this.state.items.length} //This is important field to render the next data
   next={this.fetchData}

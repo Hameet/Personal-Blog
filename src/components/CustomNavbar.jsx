@@ -1,32 +1,29 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './CustomNavbar.css'
 
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar default collapseOnSelect>
-        <Navbar.Header>
-          <Navbar.Brand>
-            <Link to="/">CodeLife</Link>
-          </Navbar.Brand>
-          <Navbar.Toggle />
-        </Navbar.Header>
-        <Navbar.Collapse>
-          <Nav pullRight>
-            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-              Home
-            </NavItem>
-            <NavItem eventKey={2} componentClass={Link} href="/about" to="/about">
-              About
-            </NavItem>
-            <NavItem eventKey={3} componentClass={Link} href="/news" to="/news">
-              News
-            </NavItem>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <Navbar>
+  <Navbar.Header>
+    <Navbar.Brand>
+      <a href="#home">React+Bootstrap</a>
+    </Navbar.Brand>
+  </Navbar.Header>
+  <Nav>
+    <NavItem eventKey={1} href="/">
+      <strong>Home</strong>
+    </NavItem>
+    <NavItem eventKey={2} href="/about">
+      <strong>About</strong>
+    </NavItem>
+    <NavItem eventKey={3} href="/news">
+      <strong>Phase-0</strong>
+    </NavItem>
+  </Nav>
+</Navbar>
     )
   }
 }

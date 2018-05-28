@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { View, Mask, Row, Col, Image, Button, ProgressBar } from 'react-bootstrap';
+
 import './Home.css';
 
 export default class Home extends Component {
@@ -79,7 +80,7 @@ export default class Home extends Component {
         
         <Image src="assets/blue.png" className="image-project"/>
           <div className="overlay">
-          <a href="http://embracing-blue.herokuapp.com/#/"><span className="glyphicon glyphicon-new-window"></span></a>
+          <a href="http://embracing-blue.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
           <strong><h7>Final EDA Project, a webapp created for addresing mental health issues</h7></strong>
           <div className="line"></div>
           <strong><h8>Tags: SQL, Bulma, Redux, React & Auth</h8></strong>
@@ -91,7 +92,7 @@ export default class Home extends Component {
         <div className="container-two">
         <Image src="assets/lost.png" className="image-project"/>
         <div className="overlay-two">
-        <a href="http://lostfoundpets.herokuapp.com/#/"><span className="glyphicon glyphicon-new-window"></span></a>
+        <a href="http://lostfoundpets.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
           <strong><h7>Another intense EDA Project created in a 2 day hackathon</h7></strong>
           <div className="line"></div>
           <strong><h8>Tags: SQL, Bulma, Redux, React & Auth</h8></strong>
@@ -103,7 +104,7 @@ export default class Home extends Component {
         <Image src="assets/sunny.png" className="image-project"/>
         <div className="overlay-three">
           <strong><h7>Live weather API and responsive animation</h7></strong>
-          <a href="https://live-weather-report.herokuapp.com/"><span className="glyphicon glyphicon-new-window"></span></a>
+          <a href="https://live-weather-report.herokuapp.com/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
           <div className="line"></div>
           <strong><h8>Under Construction</h8></strong>
         </div>
