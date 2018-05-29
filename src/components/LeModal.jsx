@@ -8,13 +8,13 @@ const style = {
   content: {
     border: '0',
     borderRadius: '10px',
-    bottom: '20%',
-    height: '100px',  // set height
+    bottom: '35%',
+    height: '200px',  // set height
     left: '30%',
     padding: '20rem',
     position: 'fixed',
     right: '50%',
-    top: '20%', // start from center
+    top: '30%', // start from center
     transform: 'translate(-90%,-' + ')', // adjust top "up" based on height
     width: '60%',
     maxWidth: '80rem',
@@ -45,7 +45,7 @@ export default class LeModal extends React.Component {
   render () {
     return (
       <div className="modal-container">
-        <button onClick={this.handleOpenModal}>Contact Info</button>
+        <strong><button onClick={this.handleOpenModal}>Contact Info</button></strong>
         <ReactModal 
            isOpen={this.state.showModal}
            style={style}
@@ -54,17 +54,22 @@ export default class LeModal extends React.Component {
            shouldCloseOnOverlayClick={false}
         >
           <div className="modal-header">
+          
           <h1>Photos courtesty of
-          <a href="http://lostfoundpets.herokuapp.com/#/" target="_blank" className="fa fa-instagram"></a></h1>
+          <a href="http://lostfoundpets.herokuapp.com/#/" target="_blank" className="fa fa-instagram"></a>
+          </h1>
           </div>
+          
           <div className="modal-footer">
           <h1>Contact</h1>
           <a href="http://lostfoundpets.herokuapp.com/#/" target="_blank" className="fa fa-github"></a> <br/>
           <a href="http://lostfoundpets.herokuapp.com/#/" target="_blank" className="fa fa-linkedin"></a>
+         
           </div>
           
+
+          <strong><button onClick={this.handleCloseModal}>Close Modal</button></strong>
           
-          <button onClick={this.handleCloseModal}>Close Modal</button>
         </ReactModal>
       </div>
     );

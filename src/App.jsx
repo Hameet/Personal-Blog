@@ -56,12 +56,14 @@ class App extends Component {
   hasMore={this.state.hasMore}
   endMessage={
     <p style={{textAlign: 'center'}}>
-      <b>Yay! You have seen it all</b>
+      
     </p>
   }>
-  <div>
+  <div className="footer">
   <Route exact path="/" component={LeModal} />
+  
     </div>
+
     
     
 </InfiniteScroll>

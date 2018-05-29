@@ -5,15 +5,16 @@
     right: 100px;
     bottom: 100px;
     width: 40%;
-    background-color: blanchedalmond
+    height: 70%;
+    
   }
 
   .Overlay {
     position: fixed;
-    top: 10px;
+    top: 30px;
     left: 10px;
     right: 10px;
-    bottom: 10px;
+    bottom: 30px;
     background-color: rgb(88, 153, 51);
     width: 40%;
     color: #882412;
@@ -43,7 +44,7 @@ h1 {
 
 .fa {
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 40px;
   width: 80px;
   text-align: center;
@@ -62,6 +63,7 @@ h1 {
   color: wheat;
   margin-left: 10%;
   margin-right: 20%;
+  margin-top: -20px;
 }
 
 .fa-linkedin {
@@ -69,15 +71,25 @@ h1 {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: 30%;
-  margin-bottom: 8%;
-  margin-top: -20px;
+  
+  margin-top: -40px;
   
 }
 
 button {
-  position: fixed;
-bottom:0;
-top:100;
-right: 0px;
-left: 50%;
+margin-right: -300px;
+margin-left: 30px;
+margin-top: -20px;
+margin-bottom: 20px;
+left: 80%;
+right: 40%;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 100px;
+padding-right: 100px;
+background-color: rgb(220, 20, 97);
+border-radius: 2px;
+font-size: 25px;
+text-align: right;
+color:whitesmoke;
 }

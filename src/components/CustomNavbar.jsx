@@ -9,7 +9,7 @@ export default class CustomNavbar extends Component {
       <Navbar>
   <Navbar.Header>
     <Navbar.Brand>
-      <a href="#home">React+Bootstrap</a>
+      <a >React+Bootstrap</a>
     </Navbar.Brand>
   </Navbar.Header>
   <Nav>
