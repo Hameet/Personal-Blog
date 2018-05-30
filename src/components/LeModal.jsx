@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactModal from 'react-modal'
-import { Button } from 'react-bootstrap';
+import { Button, Col } from 'react-bootstrap';
 import './LeModal.css'
 
 
@@ -53,6 +53,7 @@ export default class LeModal extends React.Component {
            onRequestClose={this.handleCloseModal}
            shouldCloseOnOverlayClick={false}
         >
+          <Col xs={3} md={6}>
           <div className="modal-header">
           
           <h5>Photos courtesty of
@@ -66,7 +67,7 @@ export default class LeModal extends React.Component {
           <a href="https://www.linkedin.com/in/hameet-boparai-79951827/" target="_blank" className="fa fa-linkedin"></a>
          
           </div>
-          
+          </Col>
 
           <strong><button onClick={this.handleCloseModal}>Close Modal</button></strong>
           

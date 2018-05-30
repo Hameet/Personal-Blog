@@ -11,7 +11,7 @@ nav.navbar, .navbar-default {
   
 }
 
-/* .navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a {
   color: white;
 }
 
@@ -42,7 +42,7 @@ nav.navbar, .navbar-default {
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: rgb(129, 31, 194) !important;
   background-color: transparent;
-} */
+}
  
 h9 {
   font-size: 20px;
