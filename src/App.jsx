@@ -50,7 +50,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/news" component={News} />
-          <InfiniteScroll
+          {/* <InfiniteScroll
   dataLength={this.state.items.length} //This is important field to render the next data
   next={this.fetchData}
   hasMore={this.state.hasMore}
@@ -58,7 +58,7 @@ class App extends Component {
     <p style={{textAlign: 'center'}}>
       
     </p>
-  }>
+  }> */}
   <div className="footer">
   <Route exact path="/" component={LeModal} />
   
@@ -66,7 +66,7 @@ class App extends Component {
 
     
     
-</InfiniteScroll>
+{/* </InfiniteScroll> */}
 
         </div>
       </Router>

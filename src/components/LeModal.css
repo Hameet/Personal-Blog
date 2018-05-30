@@ -21,30 +21,33 @@
   }
 
 .modal-header {
-  width: 400px;
-  margin-top: -20px;
-  margin-bottom: 10px;
+  width: 400px !important;
+  margin-top: -35px !important;
+  margin-bottom: 10px !important;
   
 }
 
 .modal-footer {
-  padding-top: 110px;
-  text-align: left;
-  align-content: center
+  padding-top: 90px !important;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  text-align: left !important;
+  align-content: left !important
 }
 
-h1 {
-  color: black;
-  margin-top: -100px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 20px;
-  text-align: center;
+h5 {
+  color: black !important;
+  margin-top: -100px !important;
+  margin-bottom: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 20px !important;
+  text-align: center !important;
+  font-size: 40px !important; 
 }
 
 .fa {
-  padding: 20px;
-  margin-top: 5px;
+  padding: 20px !important;
+  margin-top: 8px;
   font-size: 40px;
   width: 80px;
   text-align: center;
@@ -61,8 +64,8 @@ h1 {
 .fa-github {
   
   color: wheat;
-  margin-left: 10%;
-  margin-right: 20%;
+  margin-left: -20% !important;
+  margin-right: 30% !important;
   margin-top: -20px;
 }
 
@@ -71,25 +74,25 @@ h1 {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: 30%;
-  
-  margin-top: -40px;
+  margin-left: -3% !important;
+  margin-top: -65px !important;
   
 }
 
 button {
-margin-right: -300px;
-margin-left: 30px;
-margin-top: -20px;
-margin-bottom: 20px;
-left: 80%;
-right: 40%;
-padding-top: 20px;
+margin-right: -250px !important;
+margin-left: 30px !important;
+margin-top: 0px !important;
+margin-bottom: 30px !important;
+left: 70% !important;
+right: 50% !important;
+padding-top: 20px !important;
 padding-bottom: 20px;
-padding-left: 100px;
+padding-left: 100px ;
 padding-right: 100px;
 background-color: rgb(220, 20, 97);
 border-radius: 2px;
-font-size: 25px;
+font-size: 25px !important;
 text-align: right;
 color:whitesmoke;
 }

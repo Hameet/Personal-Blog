@@ -55,15 +55,15 @@ export default class LeModal extends React.Component {
         >
           <div className="modal-header">
           
-          <h1>Photos courtesty of
-          <a href="http://lostfoundpets.herokuapp.com/#/" target="_blank" className="fa fa-instagram"></a>
-          </h1>
+          <h5>Photos courtesty of
+          <a href="https://www.instagram.com/jassyboparai/" target="_blank" className="fa fa-instagram"></a>
+          </h5>
           </div>
           
           <div className="modal-footer">
-          <h1>Contact</h1>
-          <a href="http://lostfoundpets.herokuapp.com/#/" target="_blank" className="fa fa-github"></a> <br/>
-          <a href="http://lostfoundpets.herokuapp.com/#/" target="_blank" className="fa fa-linkedin"></a>
+          <h5>Contact</h5>
+          <a href="https://github.com/Hameet" target="_blank" className="fa fa-github"></a> <br/>
+          <a href="https://www.linkedin.com/in/hameet-boparai-79951827/" target="_blank" className="fa fa-linkedin"></a>
          
           </div>
           

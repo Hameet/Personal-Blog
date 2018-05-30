@@ -6,23 +6,26 @@ import './CustomNavbar.css'
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar>
+      <Navbar default collapseOnSelect>
   <Navbar.Header>
-    <Navbar.Brand>
-      <a >React+Bootstrap</a>
-    </Navbar.Brand>
+    
+    <Navbar.Toggle />
   </Navbar.Header>
-  <Nav>
+  <Navbar.Collapse>
+  <Nav pullRight>
+      
     <NavItem eventKey={1} href="/">
-      <strong>Home</strong>
+      <h9>Home</h9>
     </NavItem>
+      
     <NavItem eventKey={2} href="/about">
-      <strong>About</strong>
+      <h9>About</h9>
     </NavItem>
     <NavItem eventKey={3} href="/news">
-      <strong>Phase-0</strong>
+      <h9>Phase-0</h9>
     </NavItem>
   </Nav>
+  </Navbar.Collapse>
 </Navbar>
     )
   }

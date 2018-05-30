@@ -7,6 +7,15 @@ overflow-y: scroll;
 overflow-x: hidden;
 }
 
+/* @media (max-width: 766px) {
+    .overflow-hidden {
+        overflow-x: hidden;
+    }
+    .overflow-visible {
+        overflow-x: visible;
+    }
+} */
+
 
 .progress {
     width: 60%;
