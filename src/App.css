@@ -45,8 +45,8 @@ overflow-x: hidden;
     bottom: 10;
     left: 0;
     top:100;
-    padding: 1px;
-    background-color: #520b0b;
+    padding: 10px;
+    background-color: transparent;
     text-align: right;
-    align-content: right;
+
   }

@@ -7,7 +7,6 @@ import './LeModal.css'
 const modalStyle = {
   fontFamily: "sans-serif",
   textAlign: "left",
-  color: "green",
   width: "90%"
 };
 
@@ -33,7 +32,7 @@ export default class LeModal extends React.Component {
     const { open } = this.state;
     return (
       <div style={modalStyle}>
-        <button onClick={this.onOpenModal}>Open modal</button>
+        <button class="btn btn-primary btn-lg btn-block" onClick={this.onOpenModal}>Open modal</button>
         <Modal open={open} onClose={this.onCloseModal} little style={modalStyle} >
           
           <div className="modal-header">
