@@ -9,18 +9,19 @@ export default class Home extends Component {
     return (
         <div>
           <div className="bio-container">
-          
+        
         <Image src="assets/koyal.jpg" className="image"/>
-        <Row className="text pulled right">
-          <Col xs={6} sm={3} md={6}className="person-wrapper">
-          
-          <Image src="assets/person-1.jpeg" circle className="img-responsive float-left mr-4"/>
-          <h1>About me</h1>
-          <p>Hi, I'm Hameet, aspiring developer. Interested in art, design, traveling, film, music, coding and conversations. Have a look at some of my work.</p>
-                            
+        
+        <Row >
+          <div className="person-wrapper">
+          <Col xs={6} sm={3} md={6} mdOffset={3}>
+                  
+          <Image src="assets/person-1.jpeg" circle className="float-left"/>
+          <p>Hi, I'm Hameet, aspiring developer. Interested in art, design, traveling, film, music, coding and conversations. Have a look at some of my work.</p> 
           </Col>
-          
+          </div>
         </Row>
+        
         </div>
 
         <div className="skill-container">

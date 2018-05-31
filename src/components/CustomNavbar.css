@@ -1,6 +1,7 @@
 nav.navbar, .navbar-default {
   background-color: palevioletred;
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
+  padding-bottom: 10px; 
    
 }
 
@@ -12,20 +13,21 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: white !important;
+  margin: inherit;
 }
 
 .navbar-default .navbar-brand {
-  color: white;
+  color: white !important;
   font-size: 25px;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: white;
+  border-color: white !important;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: white !important;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -44,13 +46,17 @@ nav.navbar, .navbar-default {
   background-color: transparent;
 }
  
-h9 {
+strong {
   font-size: 20px;
   color: whitesmoke;
   display: inline;
+  margin-right: 10px;
+  text-align: right;
+  padding-left: -40px;
+  padding-right: -40px;
 }
 
-h9:hover {
+strong:hover {
   color: rgb(129, 31, 194) !important;
   background-color: transparent;
 }

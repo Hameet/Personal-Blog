@@ -14,15 +14,15 @@ export default class CustomNavbar extends Component {
   <Navbar.Collapse>
   <Nav pullRight>
       
-    <NavItem eventKey={1} href="/">
-      <h9>Home</h9>
+    <NavItem pullRight eventKey={1} href="/">
+    <strong>Home</strong>
     </NavItem>
       
     <NavItem eventKey={2} href="/about">
-      <h9>About</h9>
+    <strong>About</strong>
     </NavItem>
     <NavItem eventKey={3} href="/news">
-      <h9>Phase-0</h9>
+    <strong>Phase-0</strong>
     </NavItem>
   </Nav>
   </Navbar.Collapse>
