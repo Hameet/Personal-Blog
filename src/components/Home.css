@@ -64,11 +64,7 @@ p {
   color: rgb(226, 13, 208)
 }
 
-.btn-primary {
-  border: none;
-  border-radius: 0;
-  background-color: #2892D7;
-}
+
 
 h3 {
   margin-bottom: 1em !important;
@@ -95,6 +91,12 @@ h6 {
   height: 580px;
 }
 
+.image-blue {
+  width: 352px;
+  height: 580px;
+  margin-left: -14px;
+}
+
 .bottom-content {
   
   padding-bottom: 50px;
@@ -105,7 +107,7 @@ h6 {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 29px;
+  left: 16px;
   right: 0;
   height: 580px;
   width: 352px;
@@ -113,6 +115,8 @@ h6 {
   transition: .5s ease;
   background-color: rgba(20, 243, 39, 0.76);
 } 
+
+
 
 .container-two .overlay-two {
   position: absolute;
@@ -142,9 +146,9 @@ h6 {
   overflow: hidden
 } 
 
+
 .container:hover .overlay {
   opacity: .8;
-  
 }
 
 .container-two:hover .overlay-two {
@@ -153,7 +157,6 @@ h6 {
 
 .container-three:hover .overlay-three {
   opacity: .8;
-   
 }
 
 h7 {

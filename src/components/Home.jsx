@@ -57,10 +57,10 @@ export default class Home extends Component {
       <div className="bottom-content">
       <h4>Projects</h4>
       <Row>
-      <Col md={3} mdOffset={2} className="projects">
+      <Col xs = {6} md={3} mdOffset={2} className="projects">
         <div className="container">
         
-        <Image src="assets/blue.png" className="image-project"/>
+        <Image src="assets/blue.png" className="image-blue"/>
           <div className="overlay">
           <a href="http://embracing-blue.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
           <strong><h7>Final EDA Project, a webapp created for addresing mental health issues</h7></strong>

@@ -32,7 +32,7 @@ export default class LeModal extends React.Component {
     const { open } = this.state;
     return (
       <div style={modalStyle}>
-        <button className="btn btn-primary btn-lg btn-block" onClick={this.onOpenModal}>Open modal</button>
+        <button className="btn btn-primary btn-lg btn-block" onClick={this.onOpenModal}>Contact Info</button>
         <Modal open={open} onClose={this.onCloseModal} style={modalStyle} >
           
           <div className="modal-header">
