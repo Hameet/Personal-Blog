@@ -1,4 +1,27 @@
-.sidebar-section img {
-  width: 100%;
-  margin-bottom: 2em;
+.main-section {
+  margin-top: 100px;
+  
+}
+
+h6 {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-left: 550px;
+  color: rgb(38, 51, 50)
+}
+
+h9 {
+  font-size: 25px;
+  margin-top: 300px;
+}
+
+.bomb {
+  margin-top: 200px;
+}
+
+.game-container {
+  margin-top: 600px;
 }

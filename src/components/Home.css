@@ -75,16 +75,7 @@ h3 {
   font-family: sans-serif !important;
 }
 
-h6 {
-  text-align: center;
-  font-size: 60px;
-  font-family: sans-serif;
-  margin-top: -30px;
-  margin-bottom: 60px;
-  margin-right: 10px;
-  text-decoration-line: unset;
-  color: lightseagreen
-}
+
 
 .image-project {
   width: 352px;
@@ -213,7 +204,7 @@ h4{
 .skill-container {
   padding-top: 80px;
   padding-bottom: 40px;
-  background-color: rgba(255, 160, 122, 0.164)
+  background-color: rgb(236, 168, 191)
 }
 
 .progress {
