@@ -40,7 +40,7 @@ export default class News extends Component {
             <div className="bomb-container">
             <Image src="assets/minesweeper.gif" className="bomb" />
             <div className="mine">
-              <a href="https://hameet.github.io/js-calculator/"><h10>IGN gave it 10/10</h10></a>
+              <a href="https://hameet.github.io/minesweeper/"><h10>IGN gave it 10/10</h10></a>
             </div>
             </div>
               
