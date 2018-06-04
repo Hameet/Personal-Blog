@@ -19,7 +19,7 @@ export default class About extends Component {
 
           <Row className="background">
           <h1>Why code?</h1>
-          <p>I've tried my hands at learning and aquiring other skills such as learning a new language (tried Spanish but gave up) or learn how to play the guitar (felt very cliche) but nothing stuck. However, with coding my interset grew and grew and I was lucky find an Institue like Enspiral Dev Academy. I'm far from an expert but definietly am improving everyday.</p>
+          <p>I've tried my hands at learning and aquiring other skills such as learning a new language (tried Spanish but gave up) or learn how to play the guitar (felt very cliche) but nothing stuck. However, with coding my interset grew and grew and I was lucky to find an Institue like Enspiral Dev Academy. I'm far from an expert but definietly am improving everyday.</p>
           </Row>
         </Grid>
       </div>

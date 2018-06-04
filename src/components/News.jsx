@@ -6,44 +6,50 @@ export default class News extends Component {
   render() {
     return (
       <div>
-        <h1>Content Coming Soon</h1>
-        {/* <Grid>
 
-        <Row className="background">
+        <Grid>
+
+          <Row className="background">
             <h1>Some of my Phase-0 projects I made in my early days of coding</h1>
-        </Row>
-
-            <Row>
-            <Col xs={6} md={9} mdPull={2}  className="main-section">
-            <h6>Animated circles</h6>
-            <div class="animation">
-            <a href="https://hameet.github.io/sprint%209/index.html"><Image src="assets/circles.gif"/></a>
-            <h9>A small animation I made with some Daft Punk playing in the backgroundClick me</h9>
-            </div>
-           </Col>
-           </Row>
-
-           <Row>
-           
-           <div class="game-container">
-           <h11>Calculator & Minesweeper</h11>
-             <Col md={3} mdPull= {3}>
-                             
-             <a href="https://hameet.github.io/js-calculator/"><Image src="assets/calculator.gif"/></a>
-                  <h9>Need some help calculating your Finances Click me</h9>
-                
-                </Col>
-            
-              <Col  md={3} mdOffset={3}>
-              
-              <a href="https://hameet.github.io/js-calculator/"><Image src="assets/minesweeper.gif" className="bomb"/></a>
-                  <h9>IGN gave it 10/10 Click me</h9>
-                
-              </Col>
-           
-              </div>
           </Row>
-        </Grid> */}
+
+          <Row>
+
+            <Col xs={6} md={9} mdPull={2} className="main-section">
+
+              <Image src="assets/circles.gif" className="circles" />
+              <div class="animation">
+                <a href="https://hameet.github.io/sprint%209/index.html"><h9>A small animation I made with some Daft Punk playing in the background</h9></a>
+              </div>
+
+            </Col>
+          </Row>
+
+          <Row>
+
+            <Col md={3} mdOffset={1} className="game-container">
+            <div className="calc-container">
+              <Image src="assets/calculator.gif" className="calc" />
+              <div className="calculator">
+                <a href="https://hameet.github.io/js-calculator/"><h11>Need some help calculating your Finances</h11></a>
+              </div>
+              </div>
+            </Col>
+
+            <Col md={3} mdOffset={3}>
+            <div className="bomb-container">
+            <Image src="assets/minesweeper.gif" className="bomb" />
+            <div className="mine">
+              <a href="https://hameet.github.io/js-calculator/"><h10>IGN gave it 10/10</h10></a>
+            </div>
+            </div>
+              
+
+            </Col>
+
+
+          </Row>
+        </Grid>
       </div>
     )
   }

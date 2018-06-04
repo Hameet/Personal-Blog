@@ -19,9 +19,115 @@ h9 {
 }
 
 .bomb {
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 .game-container {
-  margin-top: 600px;
+  margin-top: 200px;
+}
+
+.calc {
+  margin-left: -62px;
+}
+
+.circles {
+  margin-left: 300px;
+}
+
+.animation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 315px;
+  right: 0px;
+  height: 540px;
+  width: 960px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: palevioletred;
+} 
+
+.calc-container .calculator {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0px;
+  right: 70%;
+  
+  opacity: 0;
+  transition: .8s ease;
+  background-color: greenyellow;
+}
+
+.bomb-container .mine {
+  position: absolute;
+  top: 300px;
+  bottom: 0;
+  left: 90%;
+  right: 0px;
+  
+  padding-left: 20px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+}
+
+.calc-container:hover .calculator {
+  opacity: .7;
+  height: 660px;
+  width: 410px;
+  right: 0
+
+}
+
+.bomb-container:hover .mine {
+  opacity: .7;
+  height: 410px;
+  width: 486px;
+  left: 0
+}
+
+.animation:hover {
+  opacity: .6;
+  }
+
+h9 {
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    left: 100%;
+    margin-left: 180px;
+    margin-right: 200px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 300;
+    font-family: fantasy;
+}
+
+h11 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 350px;
+  font-family: fantasy;
+  font-weight: 500;
+  left: -100px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+h10 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 200px;
+  font-family: fantasy;
+  font-weight: 500;
+  left: -80px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
 }
