@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Modal from 'react-responsive-modal'
-import { Button, Col } from 'react-bootstrap';
 import './LeModal.css'
 
 
@@ -34,11 +33,11 @@ export default class LeModal extends React.Component {
       <div style={modalStyle}>
         <button className="btn btn-primary btn-lg btn-block" onClick={this.onOpenModal}>Contact Info</button>
         <Modal open={open} onClose={this.onCloseModal} style={modalStyle} >
-          
+         {/* eslint-disable-next-line */}
           <div className="modal-header">
-          
+       
           <h5>Photos courtesty of
-          <a href="https://www.instagram.com/jassyboparai/" target="_blank" className="fa fa-instagram"></a>
+          <a href="https://www.instagram.com/jassyboparai/" target="_blank" className="fa fa-instagram"></a> 
           </h5>
           </div>
           

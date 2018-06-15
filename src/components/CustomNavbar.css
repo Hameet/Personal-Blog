@@ -50,13 +50,21 @@ strong {
   font-size: 20px;
   color: whitesmoke;
   display: inline;
-  margin-right: 10px;
+  margin-right: 20px;
+  margin-left: -50px;
   text-align: right;
-  padding-left: -40px;
-  padding-right: -40px;
+  padding-left: 60px;
+  padding-right: 10px;
 }
 
 strong:hover {
   color: rgb(129, 31, 194) !important;
   background-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #e7e7e7;
+  width: 700px;
+  margin-right: 200px;
+  margin-left: 600px;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Col, Image, Row } from 'react-bootstrap';
+import { Grid,Row } from 'react-bootstrap';
 import './About.css';
 
 export default class About extends Component {
@@ -13,13 +13,13 @@ export default class About extends Component {
           </Row>
 
           <Row className="background">
-          <h1>What do I like about code?</h1>
-          <p>I like the satisfaction that you get from creating something. There are so many new technologies emerging and I would love to be a part of something bigger which will shape people's lives. Although I like the server side stuff, I belive my real strength is in Design and Front end. I'm intersted in learning technologies such as AI, Augmented Reality, Data science and machine learning etc to broaden my horizons.</p>
+            <h1>What do I like about code?</h1>
+             <p>I like the satisfaction that you get from creating something. There are so many new technologies emerging and I would love to be a part of something bigger which will shape people's lives. Although I like the server side stuff, I belive my real strength is in Design and Front end. I'm intersted in learning technologies such as AI, Augmented Reality, Data science and machine learning etc to broaden my horizons.</p>
           </Row>
 
           <Row className="background">
-          <h1>Why code?</h1>
-          <p>I've tried my hands at learning and acquiring other skills such as learning a new language (tried Spanish but gave up) or learn how to play the guitar (felt very cliche) but nothing stuck. However, with coding my interest grew and grew and I was lucky to find an Institue like Enspiral Dev Academy. I'm far from an expert but definietly am improving everyday.</p>
+            <h1>Why code?</h1>
+            <p>I've tried my hands at learning and acquiring other skills such as learning a new language (tried Spanish but lost interest) or learn how to play the guitar (felt very cliche) but nothing stuck. However, with coding my interest grew and grew and I was lucky to find an Institue like Enspiral Dev Academy. I'm far from an expert but definietly am improving everyday.</p>
           </Row>
         </Grid>
       </div>

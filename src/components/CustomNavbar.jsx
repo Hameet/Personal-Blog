@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Navbar, Nav, NavItem} from 'react-bootstrap';
 import './CustomNavbar.css'
 
 export default class CustomNavbar extends Component {
@@ -14,7 +13,7 @@ export default class CustomNavbar extends Component {
   <Navbar.Collapse>
   <Nav pullRight>
       
-    <NavItem pullRight eventKey={1} href="/">
+    <NavItem eventKey={1} href="/">
     <strong>Home</strong>
     </NavItem>
       
