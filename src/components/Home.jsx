@@ -70,12 +70,12 @@ export default class Home extends Component {
 
         <Col md={3} mdOffset={0} className="projects">
           <div className="container-two">
-        <Image src="assets/lost.png" className="image-project"/>
+        <Image src="assets/gym.png" className="image-project"/>
           <div className="overlay-two">
-        <a href="http://lostfoundpets.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
-          <strong><h7>Another intense EDA Project created in a 2 day hackathon</h7></strong>
+        <a href="https://mush-to-muscles.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
+          <strong><h7>A Personal project Full Stack app for making workout plans</h7></strong>
             <div className="line"></div>
-          <strong><h8>Tags: SQL, Bulma, Redux, React & Auth</h8></strong>
+          <strong><h8>Tags: SQL, Redux, React & Bootstrap</h8></strong>
           </div>
           </div>
         </Col>
@@ -87,7 +87,7 @@ export default class Home extends Component {
             <a href="https://live-weather-report.herokuapp.com/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
             <strong><h7>Live weather API and responsive animation</h7></strong>
           <div className="line"></div>
-            <strong><h8>Under Construction</h8></strong>
+            <strong><h8>Tags: React & Bootstrap</h8></strong>
           </div>
         </div>
         </Col>
