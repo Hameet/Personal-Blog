@@ -9,7 +9,7 @@ export default class Home extends Component {
         <div>
           <div className="bio-container">
         
-          <Image src="assets/koyal.jpg" className="image"/>
+          {/* <Image src="assets/koyal.jpg" className="image"/> */}
         
           <Row>
             <div className="person-wrapper">
@@ -40,10 +40,10 @@ export default class Home extends Component {
               <ProgressBar  bsStyle="info" now={60} label={<h3>Redux</h3>}/>
               <ProgressBar  bsStyle="success" now={80} label={<h3>Agile Software Development</h3>}/>
               <ProgressBar  bsStyle="warning" now={70} label={<h3>Object Oriented Programming</h3>}/>
-              <ProgressBar  bsStyle="danger" now={40} label={<h3>SEO</h3>}/>
-              <ProgressBar  bsStyle="info" now={70} label={<h3>SQL</h3>}/>
+              <ProgressBar  bsStyle="danger" now={40} label={<h3>Functional Programming</h3>}/>
+              <ProgressBar  bsStyle="info" now={70} label={<h3>SQLite3</h3>}/>
               <ProgressBar  bsStyle="success" now={80} label={<h3>Express Server</h3>}/>
-              <ProgressBar  bsStyle="danger" now={60} label={<h3>SASS/SCSS</h3>}/>
+              <ProgressBar  bsStyle="danger" now={50} label={<h3>Styled Components</h3>}/>
           </div>
             </Col>
 
@@ -63,7 +63,7 @@ export default class Home extends Component {
              <a href="http://embracing-blue.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
                 <strong><h7>Final EDA Project, a webapp created for addresing mental health issues</h7></strong>
           <div className="line"></div>
-            <strong><h8>Tags: SQL, Bulma, Redux, React & Auth</h8></strong>
+            <strong><h8>Tags: SQLite, Bulma, Redux, React & Auth</h8></strong>
           </div>
         </div>
         </Col>
@@ -75,7 +75,7 @@ export default class Home extends Component {
         <a href="https://mush-to-muscles.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
           <strong><h7>A Personal project Full Stack app for making workout plans</h7></strong>
             <div className="line"></div>
-          <strong><h8>Tags: SQL, Redux, React & Bootstrap</h8></strong>
+          <strong><h8>Tags: SQLite, Redux, React & Bootstrap</h8></strong>
           </div>
           </div>
         </Col>

@@ -33,19 +33,17 @@ export default class LeModal extends React.Component {
       <div style={modalStyle}>
         <button className="btn btn-primary btn-lg btn-block" onClick={this.onOpenModal}>Contact Info</button>
         <Modal open={open} onClose={this.onCloseModal} style={modalStyle} >
-         {/* eslint-disable-next-line */}
+         
           <div className="modal-header">
-       
-          <h5>Photos courtesty of
-          <a href="https://www.instagram.com/jassyboparai/" target="_blank" className="fa fa-instagram"></a> 
-          </h5>
+            <h5>Photos courtesty of
+              <a href="https://www.instagram.com/jassyboparai/" target="_blank" className="fa fa-instagram"></a> 
+            </h5>
           </div>
           
           <div className="modal-footer">
-          <h5>Contact
-          <a href="https://github.com/Hameet" target="_blank" className="fa fa-github"></a> <br/>
-          <a href="https://www.linkedin.com/in/hameet-boparai-79951827/" target="_blank" className="fa fa-linkedin"></a></h5>
-         
+            <h5>Contact
+              <a href="https://github.com/Hameet" target="_blank" className="fa fa-github"></a> <br/>
+              <a href="https://www.linkedin.com/in/hameet-boparai-79951827/" target="_blank" className="fa fa-linkedin"></a></h5>
           </div>
         </Modal>
       </div>

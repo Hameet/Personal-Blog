@@ -6,26 +6,34 @@ export default class CustomNavbar extends Component {
   render() {
     return (
       <Navbar default collapseOnSelect>
-  <Navbar.Header>
+
+        <Navbar.Header>
+          <Navbar.Toggle />
+        </Navbar.Header>
+
+      <Navbar.Collapse>
+        <Nav pullRight>
+      
+          <NavItem eventKey={1} href="/">
+            <strong>Home</strong>
+          </NavItem>
+      
+          <NavItem eventKey={2} href="/about">
+            <strong>About</strong>
+          </NavItem>
     
-    <Navbar.Toggle />
-  </Navbar.Header>
-  <Navbar.Collapse>
-  <Nav pullRight>
-      
-    <NavItem eventKey={1} href="/">
-    <strong>Home</strong>
-    </NavItem>
-      
-    <NavItem eventKey={2} href="/about">
-    <strong>About</strong>
-    </NavItem>
-    <NavItem eventKey={3} href="/news">
-    <strong>Phase-0</strong>
-    </NavItem>
-  </Nav>
-  </Navbar.Collapse>
-</Navbar>
+          <NavItem eventKey={3} href="/news">
+            <strong>Phase-0</strong>
+          </NavItem>
+
+          <NavItem eventKey={3} href="assets/Hameet_Boparai_cv.pdf">
+            <strong>Download CV</strong>
+          </NavItem>
+
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
     )
   }
 }
+

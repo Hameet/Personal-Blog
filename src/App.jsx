@@ -10,29 +10,6 @@ import Navbar from './components/CustomNavbar';
 import LeModal from './components/LeModal'
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-    items: Array.from({ length: 20 }),
-    hasMore: true
-    
-  }
-  this.fetchData = this.fetchData.bind(this)
-}
-
-  fetchData () {
-    if(this.state.items.length >= 100) {
-      this.setState({hasMore: false})
-      return
-    }
-  
-
-  setTimeout(() => {
-    this.setState({
-      items: this.state.items.concat(Array.from({length:20}))
-    })    
-  }, 100)
-}
   render() {
     return (
       <Router>
