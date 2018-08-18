@@ -17,7 +17,7 @@ align-content: left !important
 
 h5 {
 color: black !important;
-margin-top: -100px !important;
+margin-top: -50px !important;
 margin-bottom: 10px !important;
 margin-left: 15px !important;
 margin-right: 20px !important;
@@ -44,7 +44,6 @@ margin-left: -200px;
 a:hover {
 background-color: transparent !important;
 color: blueviolet !important;
-display: inline;
 }
 
 .fa-github {
