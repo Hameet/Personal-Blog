@@ -26,6 +26,10 @@ export default class CustomNavbar extends Component {
             <strong>Phase-0</strong>
           </NavItem>
 
+          <NavItem eventKey={3} href="/blog">
+            <strong>Blog</strong>
+          </NavItem>
+
           <NavItem eventKey={3} href="assets/Hameet_Boparai_cv.pdf">
             <strong>Download CV</strong>
           </NavItem>

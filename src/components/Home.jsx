@@ -60,7 +60,7 @@ export default class Home extends Component {
         
         <Image src="assets/blue.png" className="image-blue"/>
           <div className="overlay">
-             <a href="http://embracing-blue.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
+             <a className="project-link" href="http://embracing-blue.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
                 <strong><h7>Final EDA Project, a webapp created for addresing mental health issues</h7></strong>
           <div className="line"></div>
             <strong><h8>Tags: SQLite, Bulma, Redux, React & Auth</h8></strong>
@@ -72,7 +72,7 @@ export default class Home extends Component {
           <div className="container-two">
         <Image src="assets/gym.png" className="image-project"/>
           <div className="overlay-two">
-        <a href="https://mush-to-muscles.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
+        <a className="project-link" href="https://mush-to-muscles.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
           <strong><h7>A Personal project Full Stack app for making workout plans</h7></strong>
             <div className="line"></div>
           <strong><h8>Tags: SQLite, Redux, React & Bootstrap</h8></strong>
@@ -84,7 +84,7 @@ export default class Home extends Component {
           <div className="container-three">
         <Image src="assets/sunny.png" className="image-project"/>
           <div className="overlay-three">
-            <a href="https://live-weather-report.herokuapp.com/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
+            <a className="project-link" href="https://live-weather-report.herokuapp.com/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
             <strong><h7>Live weather API and responsive animation</h7></strong>
           <div className="line"></div>
             <strong><h8>Tags: React & Bootstrap</h8></strong>

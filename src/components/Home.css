@@ -15,7 +15,7 @@ padding-top: 5px;
 margin-top: 0px;
 } 
 
-a {
+.project-link {
   position: absolute;
   margin-left: 300px;
 }
@@ -34,7 +34,7 @@ h1 {
   margin-top: 10px !important;
   margin-left: 20px !important;
   margin-right: 30px !important;
-  color: mediumspringgreen !important;
+  color: mediumspringgreen;
   font-size: 40px !important;
 }
 
@@ -74,8 +74,6 @@ h3 {
   font-style: oblique !important;
   font-family: sans-serif !important;
 }
-
-
 
 .image-project {
   width: 352px;
