@@ -70,12 +70,12 @@ export default class Home extends Component {
 
         <Col md={3} mdOffset={0} className="projects">
           <div className="container-two">
-        <Image src="assets/gym.png" className="image-project"/>
+        <Image src="assets/news.png" className="image-project"/>
           <div className="overlay-two">
         <a className="project-link" href="https://mush-to-muscles.herokuapp.com/#/" target="_blank"><span className="glyphicon glyphicon-new-window"></span></a>
-          <strong><h7>A Personal project Full Stack app for making workout plans</h7></strong>
+          <strong><h7>A Personal project which uses the Hacker News API</h7></strong>
             <div className="line"></div>
-          <strong><h8>Tags: SQLite, Redux, React & Bootstrap</h8></strong>
+          <strong><h8>Tags: React, Redux, API</h8></strong>
           </div>
           </div>
         </Col>
